@@ -1,6 +1,9 @@
 squares = []
-for value in range(1, 11):
-    squares.append(value ** 2)
+# for value in range(1, 11):
+#     squares.append(value ** 2)
+
+# Using a list comprehension
+squares = [value ** 2 for value in range(1, 11)]
 
 for square in squares:
     # print the last element without comma
