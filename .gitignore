@@ -4,10 +4,6 @@
 !.gitignore
 !README.md
 !*.py
-!ch03/
-!ch04/
-!ch03/*.py
-!ch04/*.py
 !chapter1/
 !chapter1/*.py
 !chapter1/*.ipynb
