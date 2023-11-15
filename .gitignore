@@ -1,0 +1,9 @@
+*
+
+# Unignore the following files
+!.gitignore
+!*.py
+!ch03/
+!ch04/
+!ch03/*.py
+!ch04/*.py
