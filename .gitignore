@@ -7,3 +7,6 @@
 !chapter1/
 !chapter1/*.py
 !chapter1/*.ipynb
+!chapter1/NOTE.md
+!or-book-code/
+!or-book-code/ch*
