@@ -40,3 +40,10 @@ print(f"\nStarted with an empty dictionary: {alien_0}")
 alien_0['color'] = 'green'
 alien_0['points'] = 5
 print(f"Final alien_0: {alien_0}")
+
+# Using get method to access values
+alien_1 = {'color': 'yellow', 'speed': 3}
+# If there's a chance the key might not exist, use get() 
+# instead of [] to access the value
+point_value = alien_1.get('points', 'No point value assigned.')
+print(f"\n{point_value}")
