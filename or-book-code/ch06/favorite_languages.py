@@ -24,3 +24,11 @@ favorite_languages = {
 # The for loop then assigns each of these pairs to the two variables provided
 for name, language in favorite_languages.items():
     print(f"{name.title()}'s favorite language is {language.title()}.")
+    
+# Using the keys() method with set and sorted functions
+# The keys() method returns a list of keys
+# The set() function removes duplicates
+# The sorted() function sorts the keys alphabetically
+print("\nLanguages:")
+for language in sorted(set(favorite_languages.values())):
+    print(language.title())
