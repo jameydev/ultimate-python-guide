@@ -47,3 +47,14 @@ alien_1 = {'color': 'yellow', 'speed': 3}
 # instead of [] to access the value
 point_value = alien_1.get('points', 'No point value assigned.')
 print(f"\n{point_value}")
+
+# List of dictionaries
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+
+aliens = [alien_0, alien_1, alien_2]
+
+print('\nAliens:')
+for alien in aliens:
+    print(f"\n\t{alien}")
